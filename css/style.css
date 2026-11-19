@@ -184,15 +184,16 @@ html[data-theme="dark"] .why-card h3{color:#f8e5ec}
 html[data-theme="dark"] .why-card p{color:#d2afb9}
 html[data-theme="dark"] .why-icon{background:#482337;color:#ff9bc7}
 @media(max-width:700px){.why-grid{grid-template-columns:1fr;gap:12px}.why-card{padding:21px}.why-icon{margin-bottom:12px}}
-.social-links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-  margin-top: 22px;
-}
 
-.social-links .social-link {
-  display: inline-flex;
-  width: fit-content;
+
+/* Footer/contact tidy-up */
+.contact-socials{display:flex;flex-direction:column;align-items:flex-start;gap:9px;margin-top:16px}
+.contact-socials .social-link{display:flex;width:max-content;max-width:100%;margin:0;line-height:1.5}
+footer .brand-wordmark strong{color:#f5dfbd}
+footer .brand-wordmark small{color:#e4a8c0}
+footer>p{text-align:center}
+@media(max-width:650px){
+  .contact-socials{gap:8px}
+  footer{align-items:flex-start}
+  footer>p{order:3;width:100%;text-align:left}
 }

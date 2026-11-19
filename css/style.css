@@ -69,7 +69,7 @@ html[data-theme="dark"] .gift-price-note{color:#ff8fc2;border-color:#9d3a70}
 html[data-theme="dark"] .social-link{color:#ff9bc7}
 @media(max-width:650px){.filters{gap:7px}.filter{padding:9px 13px;font-size:10px}.gift-description{padding-inline:9px}.gift-price-note{margin-inline:8px;font-size:9px}}
 
-/* Komunitas Store Indonesia / Kamila Gift Store header and bilingual UI */
+/* Kamila Store / Kamila Gift Store header and bilingual UI */
 .brand{gap:10px;min-width:230px}
 .brand-avatar{width:42px;height:42px;object-fit:cover;object-position:center 25%;border-radius:50%;border:2px solid #ed9abd;box-shadow:0 2px 12px #7b234a30}
 .brand-wordmark{display:flex;flex-direction:column;gap:3px;line-height:1.1}
